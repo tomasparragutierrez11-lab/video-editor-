@@ -14,7 +14,7 @@ PEXELS_API_KEY  = os.environ["PEXELS_API_KEY"]
 RUNWAY_API_KEY  = os.environ.get("RUNWAY_API_KEY", "")
 OPUS_API_KEY    = os.environ.get("OPUS_API_KEY", "")
 
-INPUT_VIDEO     = Path("/home/user/video-editor-/workspace/input/IMG_3745.mp4")
+INPUT_VIDEO     = Path("/home/user/video-editor-/workspace/input/IMG_3745.mov")
 OUTPUT_DIR      = Path("/home/user/video-editor-/workspace/output")
 BROLL_DIR       = Path("/home/user/video-editor-/workspace/broll")
 SUBTITLE_FILE   = Path("/home/user/video-editor-/workspace/subtitles/subs.srt")
